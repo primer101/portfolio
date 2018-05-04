@@ -25,6 +25,7 @@
   color: #f8f8f8;
   position: relative;
   display: table;
+  width: 100%;
 }
 
 .home-message {
@@ -58,6 +59,22 @@
   letter-spacing: 2px;
 }
 
+.home-img-banner {
+
+  /* zoom saddly doesn't work in Firefox, waiting for JavaScript
+    to fix this matter  */
+  zoom: 2;
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}
+
 @media screen and (max-width:768px) {
   .home-message>h1 {
     font-size: 3em;
@@ -65,7 +82,7 @@
   .network-name {
     font-size: 0.8rem;
   }
-  .btn {
+  .social-btn {
     font-size: 0.8rem;
   }
   .btn-lg {
@@ -87,7 +104,7 @@
   .network-name {
     font-size: 1.1rem;
   }
-  .btn {
+  .social-btn {
     font-size: 1.1rem;
   }
   .btn-lg {
@@ -109,8 +126,6 @@
   max-height: 850px;
 }
 
-/*self-taught*/
-
 .container .link {
   color: rgb(255, 255, 255);
   font-weight: 500;
@@ -123,8 +138,6 @@
 }
 
 h2.section-heading {
-  /* margin-top: 40px; */
-  /* font-size: 2em; */
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -151,27 +164,66 @@ h2.section-heading {
   }
 }
 
+/* portfolio section */
+
 .content-section-portfolio {
   padding: 50px 10px;
-  /* background: linear-gradient(#98B1C4, #2F4E6F); */
-  /* color: #C8D7E3; */
-  /* max-height: 850px; */
 }
 
+.card {
+  max-width: 25rem;
+  margin: 1rem;
+}
+
+/* contact section */
 
 .content-section-contact {
   padding: 50px 10px;
-  background: linear-gradient(#98B1C4, #2F4E6F);
-  color: #C8D7E3;
-  /* max-height: 850px; */
+  background: linear-gradient(rgb(141, 170, 192), #158CBA);
+  color: #D8D9E9;
 }
 
+.social-icons {
+  width: 100%;
+  padding: 1em;
+}
 
+#name, #email, #message {
+  background: transparent;
+  color: #D8D9E9 !important;
+}
+
+.submit-btn {
+  border-color: #D8D9E9;
+  color: #D8D9E9;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* Chrome */
+  color: #D8D9E9 !important;
+}
+
+input:-ms-input-placeholder,textarea:-ms-input-placeholder { /* IE 10+ */
+  color: #D8D9E9 !important;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder { /* Firefox 19+ */
+  color: #D8D9E9 !important;
+  opacity: 1;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #D8D9E9 !important;
+  opacity: 1;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color:    #D8D9E9 !important;
+}
 
 /* footer */
 
-.footer {
-  padding: 50px 0;
+footer {
+  padding: 30px 0;
 }
 
 .footer-menu-divider {

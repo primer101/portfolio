@@ -46,7 +46,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">
-                            <i class="fas fa-book"></i> Portfolio</a>
+                            <i class="fas fa-briefcase"></i> Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">
@@ -61,21 +61,26 @@
             <div class="container-flow">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img src="images_src/laptop.jpg" class="img-fluid" alt="Banner Laptop">
+                        <picture>
+                            <source srcset="img/laptop-large.jpg" media="(min-width: 992px)">
+                            <source srcset="img/laptop-medium.jpg" media="(min-width: 768px)">
+                            <source srcset="img/laptop-small.jpg">
+                            <img src="img/laptop-small.jpg" class="img-fluid home-img-banner" alt="Banner Laptop">
+                        </picture>
                         <div class="home-message">
                             <h1>Leonardo Daudinot</h1>
-                            <h3>Front-End Ninja</h3>
+                            <h3>Front-End Web Developer</h3>
                             <hr class="home-divider">
                             <div class="d-flex justify-content-around network-name">
-                                <a href="https://twitter.com/primer101" class="btn btn-secondary btn-lg" target="_blank">
+                                <a href="https://twitter.com/primer101" class="btn btn-secondary btn-lg social-btn" target="_blank">
                                     <i class="fab fa-twitter fa-fw"></i>
                                     <span class="network-name">Twitter</span>
                                 </a>
-                                <a href="https://github.com/primer101" class="btn btn-secondary btn-lg" target="_blank">
+                                <a href="https://github.com/primer101" class="btn btn-secondary btn-lg social-btn" target="_blank">
                                     <i class="fab fa-github fa-fw"></i>
                                     <span class="network-name">Github</span>
                                 </a>
-                                <a href="https://www.linkedin.com/in/leonardodaudinot/" class="btn btn-secondary btn-lg" target="_blank">
+                                <a href="https://www.linkedin.com/in/leonardodaudinot/" class="btn btn-secondary btn-lg social-btn" target="_blank">
                                     <i class="fab fa-linkedin-in fa-fw"></i>
                                     <span class="network-name">Linkedin</span>
                                 </a>
@@ -114,7 +119,12 @@
                         </p>
                     </div>
                     <div class="col-md-4 offset-md-2">
-                        <img class="rounded-circle img-fluid" src="./images_src/picture.jpg" alt="Leonardo Daudinot's Picture">
+                        <picture>
+                            <source srcset="img/picture-large.jpg" media="(min-width: 992px)">
+                            <source srcset="img/picture-medium.jpg" media="(min-width: 768px)">
+                            <source srcset="img/picture-small.jpg">
+                            <img src="./img/picture-small.jpg" class="rounded-circle img-fluid" alt="Leonardo Daudinot's Picture">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -124,57 +134,44 @@
             <a name="portfolio"></a>
             <h2>Featured Work</h2>
             <div class="container">
-                <!-- <h2>Featured Work</h2> -->
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xl-4">
                         <div class="card bg-dark text-white">
-                            <img class="card-img" src="./images_src/laptop.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Card title</h4>
-                            </div>
+                            <img class="card-img-top" src="./img//fixed/thebrighton.jpg" class="img-fluid" alt="Card image">
                             <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Bridghton Times</h5>
+                                <p class="card-text">A website as an exercise on responsiveness. Using only HTML, CSS.</p>
+                                <a href="https://codepen.io/primer101/full/jxVdOq/" class="btn btn-primary">View</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xl-4">
                         <div class="card bg-dark text-white">
-                            <img class="card-img" src="./images_src/laptop.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Card title</h4>
-                            </div>
+                            <img class="card-img-top" src="./img/fixed/pixartmaker.png" class="img-fluid" alt="Card image">
                             <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Pix Art Maker</h5>
+                                <p class="card-text">An example using JavaScript to modify the DOM.</p>
+                                <a href="https://codepen.io/primer101/full/mXWqzp/" class="btn btn-primary">View</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xl-4">
                         <div class="card bg-dark text-white">
-                            <img class="card-img" src="./images_src/laptop.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Card title</h4>
-                            </div>
+                            <img class="card-img" src="./img/fixed/animal-card.jpg" class="img-fluid" alt="Card image">
                             <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Animal Trading Cards</h5>
+                                <p class="card-text">Using CSS to style a nice card;</p>
+                                <a href="https://codepen.io/primer101/full/Ozabmb/" class="btn btn-primary">View</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-xl-4">
                         <div class="card bg-dark text-white">
-                            <img class="card-img" src="./images_src/laptop.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Card title</h4>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <img class="card-img" src="./img/fixed/bill-tribute.jpg" class="img-fluid" alt="Card image">
+                             <div class="card-body">
+                                <h5 class="card-title">Bill Gate's Tribute</h5>
+                                <p class="card-text">A responsive website using Bootstrap 3.</p>
+                                <a href="https://codepen.io/primer101/full/yKvaMQ/" class="btn btn-primary">View</a>
                             </div>
                         </div>
                     </div>
@@ -189,39 +186,43 @@
                 <!-- <h2>Contact</h2> -->
                 <div class="row">
                     <div class="col-md-6">
-                        <p>So, now that you've seen my whimsical website, terrific talents, and prodigious projects, you may
-                            want to reach out to me for various reasons.
-                            <br> Please use the form to contact me in regards to any questions regarding any freelance or other
+                        <p class="lead">Thanks for your time and interest. Here is my full resume. You may want to reach out to me for various reasons,
+                            I will contact you back.
+                            <br>
+                            <br> Please use the form to contact me in regards to any questions, or any freelance or other
                             types of work.
                         </p>
                     </div>
                     <div class="col-md-6">
-                        <form method="post" action="send_email_form.php" _lpchecked="1">
+                        <form method="post" action="mailto:ldaudinot09@live.com">
                             <div class="form-row">
                                 <div class="form-group col-12">
                                     <input type="text" class="form-control form-control-sm" name="name" id="name" placeholder="Name">
                                 </div>
                                 <div class="form-group col-12">
-                                    <input type="text" class="form-control form-control-sm" name="email" id="email" placeholder="Email">
+                                    <input type="text" class="form-control form-control-sm" name="email" id="email" placeholder="Email" aria-describedby="emailHelp">
                                 </div>
                                 <div class="form-group col-12">
                                     <textarea class="form-control form-control-sm" name="message" id="message" placeholder="Message" rows="3"></textarea>
                                 </div>
-                                <div class="form-group col-12 lead">
-                                    <button type="submit" value="Submit" class="btn btn-block btn-outline-light submit-btn">Submit</button>
+                                <div class="form-group col-12">
+                                    <button type="submit" value="Submit" class="btn btn-block btn-outline-light submit-btn">
+                                        <i class="fas fa-share-square fa-fw"></i>
+                                        Send
+                                    </button>
                                 </div>
-                                <div class="social-icons">
-                                    <a href="https://www.facebook.com/8BitJustin" target="_blank">
-                                        <img src="img/facebook.png" alt="Facebook Icon">
+                                <div class="social-icons d-flex justify-content-around">
+                                    <a href="https://www.linkedin.com/in/leonardodaudinot/" class="btn btn-outline-light social-btn" target="_blank">
+                                        <i class="fab fa-linkedin-in fa-fw"></i>
+                                        <!-- <span class="network-name">Linkedin</span> -->
                                     </a>
-                                    <a href="https://www.linkedin.com/in/justinolson34/" target="_blank">
-                                        <img src="img/linkedin.png" alt="LinkedIn Icon">
+                                    <a href="https://twitter.com/primer101" class="btn btn-outline-light social-btn" target="_blank">
+                                        <i class="fab fa-twitter fa-fw"></i>
+                                        <!-- <span class="network-name">Twitter</span> -->
                                     </a>
-                                    <a href="https://www.instagram.com/j.olson.digital/" target="_blank">
-                                        <img src="img/instagram.png" alt="Instagram Icon">
-                                    </a>
-                                    <a href="https://github.com/8BitJustin" target="_blank ">
-                                        <img src="img/github.png" alt="Github Icon">
+                                    <a href="https://github.com/primer101" class="btn btn-outline-light social-btn" target="_blank">
+                                        <i class="fab fa-github fa-fw"></i>
+                                        <!-- <span class="network-name">Github</span> -->
                                     </a>
                                 </div>
                             </div>
@@ -254,7 +255,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="text-muted small">Copyright &copy; Temis Software 2018. All Rights Reserved</p>
+                    <p class="text-muted small">Copyright © 2018 Leonardo Daudinot. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -267,5 +268,6 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+
 
 </html>
