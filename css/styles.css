@@ -24,7 +24,7 @@
   text-align: center;
   color: #f8f8f8;
   position: relative;
-  display: table;
+  /* display: table; */
   width: 100%;
 }
 
@@ -198,7 +198,7 @@ h2.section-heading {
 
 .content-section-contact {
   padding: 50px 10px;
-  background: linear-gradient(rgb(137, 170, 196), #158CBA);
+  background: linear-gradient(#158CBA, rgb(137, 170, 196));
   color: #D8D9E9;
 }
 
